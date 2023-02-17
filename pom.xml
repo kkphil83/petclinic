@@ -263,7 +263,7 @@
     </repository>
 		<repository>
 			<id>central</id>
-			<url>http://nexusrepo-sonatype-nexus-service.nexus:8081/repository/maven-public/</url>
+			<url>http://nexusrepo-sonatype-nexus-service.cicd-1:8081/repository/maven-public/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -292,7 +292,7 @@
     </pluginRepository>
       <pluginRepository>
          <id>central</id>
-         <url>http://nexusrepo-sonatype-nexus-service.nexus:8081/repository/maven-public/</url>
+         <url>http://nexusrepo-sonatype-nexus-service.cicd-1:8081/repository/maven-public/</url>
          <releases>
              <enabled>true</enabled>
          </releases>
@@ -305,11 +305,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://nexusrepo-sonatype-nexus-service.nexus:8081/repository/maven-snapshots/</url>
+      <url>http://nexusrepo-sonatype-nexus-service.cicd-1:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>nexus-releases</id>
-      <url>http://nexusrepo-sonatype-nexus-service.nexus:8081/repository/maven-releases/</url>
+      <url>http://nexusrepo-sonatype-nexus-service.cicd-1:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
   
