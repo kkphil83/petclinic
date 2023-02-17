@@ -290,6 +290,16 @@
         <enabled>false</enabled>
       </snapshots>
     </pluginRepository>
+      <pluginRepository>
+         <id>central</id>
+         <url>http://nexusrepo-sonatype-nexus-service.nexus:8081/repository/maven-public/</url>
+         <releases>
+             <enabled>true</enabled>
+         </releases>
+         <snapshots>
+             <enabled>true</enabled>
+         </snapshots>
+      </pluginRepository>
   </pluginRepositories>
 
   <profiles>
