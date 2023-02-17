@@ -302,6 +302,17 @@
       </pluginRepository>
   </pluginRepositories>
 
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://nexusrepo-sonatype-nexus-service.nexus:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://nexusrepo-sonatype-nexus-service.nexus:8081/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
+  
   <profiles>
     <profile>
       <id>css</id>
